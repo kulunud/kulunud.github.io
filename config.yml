@@ -37,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["courses","papers","data"]
+    MainSections: ["teaching","papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -57,12 +57,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Tags
-              url: tags/
+            - name: Teaching
+              url: teaching/
             - name: Archive
               url: archive/
 
@@ -71,8 +67,6 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:kulunud@uchicago.edu
-        - name: Location
-          url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
