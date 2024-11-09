@@ -1,7 +1,7 @@
 ---
 title: "Denoising Diffusions with Optimal Transport: Localization,
  Curvature, and Multi-Scale Complexity" 
-date: 2004-12-28
+date: 2024-11-01
 lastmod: 2024-07-12
 tags: ["Diffusion models", "optimal transport", "localization", "curvature", "non-log-concavity"]
 author: [" Tengyuan Liang", "Kulunu Dharmakeerthi","Takuya Koriyama"]

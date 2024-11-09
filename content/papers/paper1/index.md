@@ -1,13 +1,12 @@
 ---
 title: "Learning When the Concept Shifts: Confounding, Invariance, and
  Dimension Reduction" 
-date: 2013-01-15
+date: 2024-06-06
 lastmod: 2024-07-12
 tags: ["concept shift", "distribution shift", "unobserved confounding", "invariance, "]
 author: ["Kulunu Dharmakeerthi","YoonHaeng Hur", "Tengyuan Liang"]
 description: "We study the necessity and benefit of leveraging exogenous, invariant covariate representations to cure concept shifts and improve target prediction. Submitted" 
-summary: "This paper motivates a new data-driven representation learning method for adaptation that optimizes for a lower-dimensional linear subspace and, subsequently, a prediction model
- confined to that subspace. The procedure operates on a non-convex objective—that naturally interpolates between predictability and stability/invariance—constrained on the Stiefel manifold, using an analog of projected gradient descent on manifolds." 
+summary: "This paper motivates a new data-driven representation learning method for adaptation that optimizes for a lower-dimensional linear subspace and, subsequently, a prediction model confined to that subspace. The procedure operates on a non-convex objective—that naturally interpolates between predictability and stability/invariance—constrained on the Stiefel manifold, using an analog of projected gradient descent on manifolds." 
 cover:
     image: "paper1.png"
     alt: "Learning When the Concept Shifts"
