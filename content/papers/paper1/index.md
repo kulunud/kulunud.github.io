@@ -53,7 +53,7 @@ fold, using an analog of projected gradient descent on manifolds. We study the o
  the tradeoffs between predictability and stability are elucidated therein
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Figure 6: Domain Adaptation, and Risk Difference
 
 ![](paper1.png)
 

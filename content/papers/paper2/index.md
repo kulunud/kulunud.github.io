@@ -49,7 +49,7 @@ conclude with several non-log-concave examples to demonstrate how the multi-scal
 probes the bottleneck SNR for the diffuse-then-denoise process
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+##### Figure 2: Survival Function: Localization of Backward Transport
 
 ![](paper2.png)
 
