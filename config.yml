@@ -48,8 +48,8 @@ params:
     profileMode:
           enabled: true
           title: Kulunu Dharmakeerthi
-          subtitle: "I am a PhD student at the University of Chicago."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a PhD student at the University of Chicago. "
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
