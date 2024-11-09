@@ -13,11 +13,9 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Teaching
+          url: teaching/
           weight: 3
-        - name: Data
-          url: data/
           weight: 4 
         
 
@@ -59,8 +57,6 @@ params:
               url: papers/
             - name: Teaching
               url: teaching/
-            - name: Archive
-              url: archive/
 
     socialIcons:
         - name: CV
@@ -71,9 +67,7 @@ params:
           url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=gSB3a6IAAAAJ&hl=en&authuser=2
-        - name: GitHub
-          url: https://github.com/kulunud
-
+       
     assets:
         disableScrollBarStyle: true
     cover:
