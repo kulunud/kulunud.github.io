@@ -46,7 +46,7 @@ params:
     profileMode:
           enabled: true
           title: Kulunu Dharmakeerthi
-          subtitle: "I am a PhD student at the University of Chicago. Myresearch lies at the intersection of statistics, optimization and machine learning.
+          subtitle: "I am a PhD student at the University of Chicago. My research lies at the intersection of statistics, optimization and machine learning.
            On the methodology front, I have investigated causal perspectives for domain adaptation. Recently, I am exploring statistical and computational theory
            for generative modeling. More generally, I am interested in optimal transport theory and its utility in data science."
           imageUrl: "picture.jpg"
