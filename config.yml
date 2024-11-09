@@ -1,0 +1,101 @@
+baseURL: "https://kulunud.github.io" 
+title: Kulunu Dharmakeerthi
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Courses
+          url: courses/
+          weight: 3
+        - name: Data
+          url: data/
+          weight: 4 
+        
+
+params:
+    description: "I am a PhD student at the University of Chicago."
+    author: Kulunu Dharmakeerthi
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2024"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Kulunu Dharmakeerthi
+          subtitle: "I am a PhD student at the University of Chicago."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Courses
+              url: courses/
+            - name: Data
+              url: data/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:kulunud@uchicago.edu
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=gSB3a6IAAAAJ&hl=en&authuser=2
+        - name: GitHub
+          url: https://github.com/kulunud
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Kulunu Dharmakeerthi"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
