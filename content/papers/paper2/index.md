@@ -1,18 +1,19 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
+title: "Denoising Diffusions with Optimal Transport: Localization,
+ Curvature, and Multi-Scale Complexity" 
 date: 2004-12-28
 lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+tags: ["Diffusion models", "optimal transport", "localization", "curvature", "non-log-concavity"]
+author: [" Tengyuan Liang", "Kulunu Dharmakeerthi","Takuya Koriyama"]
+description: " We study the effectiveness of the diffuse-then-denoise process: the contraction of the forward diffusion chain, offset by the possible expansion of the backward denoising chain, governs the denoising difficulty. " 
+summary: "We discover that the multi-scale curvature complexity collectively determines the difficulty of the denoising chain. Our multi-scale complexity quantifies a fine-grained notion of average-case curvature instead of the worst-case. " 
 cover:
     image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    alt: "Denoising Diffusions"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://github.com/kulunud/kulunud.github.io"
+    Text: ""
 
 ---
 
@@ -21,15 +22,31 @@ editPost:
 ##### Download
 
 + [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
++ [arxiv](https://arxiv.org/pdf/2411.01629)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+Adding noise is easy; what about denoising? Diffusion is easy; what about reverting a
+diffusion? Diffusion-based generative models aim to denoise a Langevin diffusion chain, moving
+from a log-concave equilibrium measure ν, say isotropic Gaussian, back to a complex, possibly
+non-log-concave initial measure μ. The score function performs denoising, going backward in
+time, predicting the conditional mean of the past location given the current. We show that
+score denoising is the optimal backward map in transportation cost. What is its localization
+uncertainty? We show that the curvature function determines this localization uncertainty,
+measured as the conditional variance of the past location given the current. We study in
+this paper the effectiveness of the diffuse-then-denoise process: the contraction of the forward
+diffusion chain, offset by the possible expansion of the backward denoising chain, governs the
+denoising difficulty. For any initial measure μ, we prove that this offset net contraction at time
+t is characterized by the curvature complexity of a smoothed μ at a specific signal-to-noise ratio
+(SNR) scale r(t). We discover that the multi-scale curvature complexity collectively determines
+the difficulty of the denoising chain. Our multi-scale complexity quantifies a fine-grained notion
+of average-case curvature instead of the worst-case. Curiously, it depends on an integrated
+tail function, measuring the relative mass of locations with positive curvature versus those with
+negative curvature; denoising at a specific SNR scale is easy if such an integrated tail is light. We
+conclude with several non-log-concave examples to demonstrate how the multi-scale complexity
+probes the bottleneck SNR for the diffuse-then-denoise process
 ---
 
 ##### Figure 2: Dimensions of a sausage dog
@@ -40,23 +57,20 @@ This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor s
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Tengyuan Liang, Kulunu Dharmakeerthi, and Takuya Koriyama. 2024. “Denoising Diffusions with Optimal Transport: Localization, Curvature, and Multi-Scale Complexity.” arXiv:2411.01629.
 
 ```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@misc{liang2024denoising,
+      title={Denoising Diffusions with Optimal Transport: Localization, Curvature, and Multi-Scale Complexity}, 
+      author={Tengyuan Liang and Kulunu Dharmakeerthi and Takuya Koriyama},
+      year={2024},
+      eprint={2411.01629},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
 ```
 
 ---
 
 ##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
