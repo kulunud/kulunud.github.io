@@ -24,7 +24,7 @@ params:
     author: Kulunu Dharmakeerthi
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2024"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
