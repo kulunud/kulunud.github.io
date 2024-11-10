@@ -47,6 +47,7 @@ tail function, measuring the relative mass of locations with positive curvature 
 negative curvature; denoising at a specific SNR scale is easy if such an integrated tail is light. We
 conclude with several non-log-concave examples to demonstrate how the multi-scale complexity
 probes the bottleneck SNR for the diffuse-then-denoise process
+
 ---
 
 ##### Figure 2: Survival Function: Localization of Backward Transport
