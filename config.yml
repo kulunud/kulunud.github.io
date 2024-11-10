@@ -44,7 +44,7 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: true
+          enabled: false
           title: Kulunu Dharmakeerthi
           subtitle: "I am a PhD student at the University of Chicago. My research lies at the intersection of statistics, optimization and machine learning.
            On the methodology front, I have investigated causal perspectives for domain adaptation. Recently, I am exploring statistical and computational theory
