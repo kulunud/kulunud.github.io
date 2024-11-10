@@ -51,6 +51,7 @@ fold, using an analog of projected gradient descent on manifolds. We study the o
  subspace can incur a nearly ideal gap between target and source risk. Three real-world data
  sets are investigated to validate our method and theory against distribution shifts empirically;
  the tradeoffs between predictability and stability are elucidated therein
+ 
 ---
 
 ##### Figure 6: Domain Adaptation, and Risk Difference
